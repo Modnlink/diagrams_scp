@@ -1,0 +1,8 @@
+digraph "diagram-531fe3c" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="diagram-531fe3c" nodesep=0.60 pad=2.0 rankdir=LR ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	"8d90b17e934c41f8ad8925cc1301061d" [label=<<font point-size="12"><b>container1</b></font><br/><font point-size="9">[Container]<br/></font>> fillcolor=dodgerblue3 fixedsize=true fontcolor=white height=1 labelloc=c shape=rect style=filled width=2]
+	"4c03e51603b14076bec593cc51a3d3d4" [label=<<font point-size="12"><b>container2</b></font><br/><font point-size="9">[Container]<br/></font>> fillcolor=dodgerblue3 fixedsize=true fontcolor=white height=1 labelloc=c shape=rect style=filled width=2]
+	"8d90b17e934c41f8ad8925cc1301061d" -> "4c03e51603b14076bec593cc51a3d3d4" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+}

@@ -29,7 +29,8 @@ PROVIDERS = (
     "generic",
     "openstack",
     "outscale",
-)
+    "scp",
+    )
 
 #########################
 #  Resource Processing  #
@@ -59,7 +60,8 @@ FILE_PREFIXES = {
     "outscale": (),
     "generic": (),
     "openstack": (),
-}
+    "scp": (),
+    }
 
 #########################
 #  Doc Auto Generation  #
@@ -468,4 +470,5 @@ ALIASES = {
             "Tripleo": "TripleO",
         }
     },
+    "scp": {}, 
 }

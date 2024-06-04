@@ -20,6 +20,7 @@ providers=(
   "generic"
   "openstack"
   "outscale"
+  "scp"
 )
 
 if ! [ -x "$(command -v round)" ]; then
